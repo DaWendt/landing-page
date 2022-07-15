@@ -1,9 +1,37 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
 .whole-page{
     display: flex;
+    flex-direction: column;
+   
 }
 
 .header{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 100px 0px 150px;
+}
+
+.header p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    color: darkgrey;
+    gap: 15px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
 }
 
 .section-1{
